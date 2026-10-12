@@ -3,17 +3,78 @@
 # Optional: email, website, scholar, github
 # Photos go in images/ or images/team/
 
-- name: George Zweig
-  photo: team/george-zweig.svg
-  info: PhD Student, Quark Model
+- name: Zehao Zhuo
+  photo: zehao.jpg
+  info: PhD Student, Low-Altitude Transportation Systems
+  edu: B.Eng., Zhejiang University (2025)
+  email: zhuozehao@zju.edu.cn
 
-- name: Albert Hibbs
-  photo: team/albert-hibbs.svg
-  info: PhD Student, Quantum Mechanics
+- name: Haobo Zhao
+  photo: zhb.jpg
+  info: PhD Student, Air-Ground Cooperative Transportation Systems
+  edu: B.Eng., Zhejiang University (2027)
+  email: 3230103026@zju.edu.cn
 
-- name: Thomas Curtright
-  photo: team/thomas-curtright.svg
-  info: PhD Student, Quantum Field Theory
+- name: Tongtong Qian
+  photo: qtt.png
+  info: PhD Student, Air-Ground Cooperative Transportation Systems
+  edu: B.Eng., Shandong University (2027)
+  email: 202300450042@mail.sdu.edu.cn
+
+
+- name: Junxi Li
+  photo: ljx.jpg
+  info: Master Student, Connected and Automated Transportation Systems
+  edu: B.Eng., Zhejiang University (2026)
+  email: 22612296@zju.edu.cn
+
+- name: Shimin Huang
+  photo: hsm.jpg
+  info: Master Student, Low‑altitude Mobility Simulation and Optimization
+  edu: B.Eng., Zhejiang University (2025)
+  email: 22512057@zju.edu.cn
+
+- name: Zhehan Zhao
+  photo: zhehan.jpg
+  info: Master Student, Urban Air Mobility
+  edu: B.Eng., Zhejiang University (2026)
+  email: 22612060@zju.edu.cn
+
+- name: Shuming Cao
+  photo: csm.jpg
+  info: Master Student, Air-Ground Cooperative Transportation Systems
+  edu: B.Eng., Zhejiang University (2027)
+  email: 3230103558@zju.edu.cn
+
+- name: Yanhao Wang
+  photo: wyh.jpg
+  info: Master Student, Connected and Automated Transportation Systems
+  edu: B.Eng., Tongji University (2027)
+  email: wangyanhao224@163.com
+
+- name: Kexin Yang
+  photo: ykx.jpg
+  info: Master Student, Connected and Automated Transportation Systems
+  edu: B.Eng., Changan University (2027)
+  email: 15512186693@163.com
+
+- name: Rongqi Tian (THU)
+  photo: trq.jpg
+  info: Master Student, Connected and Automated Transportation Systems
+  edu: B.Eng., Tsinghua University (2026)
+  email: tianrq22@mails.tsinghua.edu.cn
+
+- name: Xi Zhang (UCAS)
+  photo: zx.png
+  info: Master Student, Connected and Automated Transportation Systems
+  edu: B.Eng., China University of Petroleum (Beijing) (2024)
+  email: zhangxi241@mails.ucas.ac.cn
+
+- name: Jiaxin Hu
+  photo: hjx.jpg
+  info: Bachelor Student, Flying Vehicle-based Transportation Systems
+  edu: B.Eng., Zhejiang University (2029)
+  email: 3250100341@zju.edu.cn
 
 - name: "This could be you!"
   photo: rock.jpg

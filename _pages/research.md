@@ -9,50 +9,50 @@ permalink: /research/
 <div class="research-grid">
 
 <div class="research-card">
-<img src="{{ '/images/research/qed.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Feynman diagram">
+<img src="{{ '/images/research/depth.gif' | relative_url }}" class="research-thumb" width="400" height="200" alt="Visual Perception with on-board Sensors">
 <div class="research-body">
-<h2 class="research-title">Quantum Electrodynamics</h2>
-<p class="research-desc">Development of the path integral formulation of quantum mechanics and its application to quantum electrodynamics (QED). This work introduced Feynman diagrams as a powerful tool for calculating particle interactions, providing an intuitive visual representation of complex quantum processes.</p>
+<h2 class="research-title">Visual Perception with CAVs' On-board Sensors</h2>
+<p class="research-desc">Perceiving the surroundings of vehicles is important for autonomous driving and advanced transport applications. This direction investigates various visual tasks, including depth estimation, 3D reconstruction, semantic segmentation, object detection, etc.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/superfluidity.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Superfluid helium">
+<img src="{{ '/images/research/trajectory.png' | relative_url }}" class="research-thumb" width="400" height="200" alt="Superfluid helium">
 <div class="research-body">
-<h2 class="research-title">Superfluidity</h2>
-<p class="research-desc">Quantum mechanical explanation of the behavior of liquid helium near absolute zero. Using path integral methods, we developed a microscopic theory of the lambda transition and explained the energy spectrum of excitations in superfluid helium, including the roton minimum.</p>
+<h2 class="research-title">Nonvisual Perception with CAV Trajectory Data</h2>
+<p class="research-desc">Nonvisual perception mainly uses trajectory data to develop beneficial transport applications. This direction aims to estimate critical traffic states, such as queue length, the total number of vehicles in a lane, the number of residual vehicles, etc., paving the way for traffic management and control.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/partons.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Parton model">
+<img src="{{ '/images/research/control.png' | relative_url }}" class="research-thumb" width="400" height="200" alt="Parton model">
 <div class="research-body">
-<h2 class="research-title">Parton Model</h2>
-<p class="research-desc">A model describing the internal structure of hadrons in terms of point-like constituents called partons. This framework proved essential for interpreting deep inelastic scattering experiments at SLAC and laid the groundwork for quantum chromodynamics (QCD).</p>
+<h2 class="research-title">CAV-based Traffic Management and Control</h2>
+<p class="research-desc">Accurate perception is for better control. Based on estimated traffic states, effective traffic management and control models are developed to improve the system's efficiency, robustness, sustainability, and resilience. In particular, uncertainty in the system is considered and modeled.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/quantum-computing.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Quantum circuit">
+<img src="{{ '/images/research/infrastructure.png' | relative_url }}" class="research-thumb" width="400" height="200" alt="Quantum circuit">
 <div class="research-body">
-<h2 class="research-title">Quantum Computing</h2>
-<p class="research-desc">Pioneering proposals for using quantum mechanical systems to perform computation. We demonstrated that classical computers cannot efficiently simulate quantum physics, motivating the development of quantum computers that exploit superposition and entanglement.</p>
+<h2 class="research-title">Low-altitude Infrastructure Planning and Optimization</h2>
+<p class="research-desc">Low-altitude infrastructures, including drone stations and configurations, are fundamental for developing downstream applications. This direction focuses on optimizing the locations and configurations of those essential infrastructures under different conditions, e.g., logistics and traffic monitoring.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/nanotechnology.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Atomic manipulation">
+<img src="{{ '/images/research/cooperativestates.png' | relative_url }}" class="research-thumb" width="400" height="200" alt="Atomic manipulation">
 <div class="research-body">
-<h2 class="research-title">Nanotechnology</h2>
-<p class="research-desc">Exploration of the physical possibilities of manipulating matter at the atomic scale. The talk "There's Plenty of Room at the Bottom" envisioned machines that could arrange atoms one by one, anticipating modern nanotechnology and molecular manufacturing.</p>
+<h2 class="research-title">Air-Ground Cooperative Perception</h2>
+<p class="research-desc">The perception capability of drones provides a new possibility for traffic state estimation. This direction investigates the incorporation of drones into a partial CAV environment for more accurate, comprehensive traffic state estimation.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/weak-interactions.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Weak interaction diagram">
+<img src="{{ '/images/research/cooperativecontrol.jpg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Weak interaction diagram">
 <div class="research-body">
-<h2 class="research-title">Weak Interactions</h2>
-<p class="research-desc">Development of the V-A theory of the weak interaction with Murray Gell-Mann. This theory correctly predicted the structure of weak decays and was later incorporated into the electroweak unification by Weinberg, Salam, and Glashow.</p>
+<h2 class="research-title">Air-Ground Cooperative Management and Control</h2>
+<p class="research-desc">The availability of traffic states paves the way for traffic management and control. This direction considers a multimodal transportation system comprising both drones/eVTOLs and ground CAVs and aims to develop unified, robust, and effective control systems for drones, CAVs, and infrastructures.</p>
 </div>
 </div>
 

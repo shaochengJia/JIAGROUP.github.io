@@ -4,9 +4,11 @@ layout: page
 permalink: /team/
 ---
 
+<!--
 # Team
 
 **We are looking for new team members!**
+-->
 
 ## PI
 
@@ -35,14 +37,15 @@ permalink: /team/
 </div>
 
 {% if site.data.team_members.size > 0 %}
-## Current Students and Postdocs
+## Members
 
 <div class="team-grid">
 {% for member in site.data.team_members %}
 <div class="team-card">
-<img src="{{ member.photo | prepend: '/images/' | relative_url }}" class="team-photo" alt="{{ member.name }}" width="100" height="100" loading="lazy">
+<img src="{{ member.photo | prepend: '/images/' | relative_url }}" class="team-photo" alt="{{ member.name }}" width="200" height="200" loading="lazy">
 <h3 class="team-name">{{ member.name }}</h3>
 <p class="team-info">{{ member.info }}</p>
+<p class="team-info">{{ member.edu }}</p>
 <div class="team-links">
 {% if member.email %}<a href="mailto:{{ member.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}
 {% if member.website %}<a href="{{ member.website }}" class="icon-link" title="Website" aria-label="Website">{% include icon.html name="house" %}</a>{% endif %}
@@ -55,6 +58,9 @@ permalink: /team/
 {% endif %}
 
 {% if site.data.alumni.size > 0 %}
+
+
+<!-- command out the following for now
 ## Alumni
 
 <div class="section-card">
@@ -75,6 +81,8 @@ permalink: /team/
 </div>
 {% endif %}
 
+
 ## Administrative Support
 
 <a href="mailto:exampleemail@gmail.com">Example staff</a> is helping us (and other groups) with administration.
+-->

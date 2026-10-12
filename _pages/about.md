@@ -4,7 +4,7 @@ layout: page
 permalink: /about/
 ---
 
-# About
+# About PI
 
 <div class="section-card">
 <div class="pi-card">
@@ -30,27 +30,108 @@ permalink: /about/
 </div>
 </div>
 
-{% if site.data.grants %}
+{% if site.data.workexperience %}
 <div class="section-card">
-<h3>Grants</h3>
+<h3>Work Experience</h3>
 <ul>
-{% for grant in site.data.grants %}
-<li>{{ grant.name }}</li>
+{% for work in site.data.workexperience %}
+<li>{{ work.name | markdownify | remove_first: '<p>' | remove: '</p>' | strip }}</li>
 {% endfor %}
 </ul>
 </div>
 {% endif %}
+
+{% if site.data.researchinterest %}
+<div class="section-card">
+<h3>Research Interests</h3>
+<ul>
+{% for research in site.data.researchinterest %}
+<li>{{ research.name | markdownify | remove_first: '<p>' | remove: '</p>' | strip }}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+{% if site.data.teach %}
+<div class="section-card">
+<h3>Teaching</h3>
+<ul>
+{% for course in site.data.teach %}
+<li>{{ course.name | markdownify | remove_first: '<p>' | remove: '</p>' | strip }}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
 
 {% if site.data.awards %}
 <div class="section-card">
 <h3>Awards</h3>
 <ul>
 {% for award in site.data.awards %}
-<li>{{ award.name | replace: "-","&#8211;" }}</li>
+<li>{{ award.name | markdownify | remove_first: '<p>' | remove: '</p>' | strip }}</li>
 {% endfor %}
 </ul>
 </div>
 {% endif %}
+
+{% if site.data.editorship %}
+<div class="section-card">
+<h3>Editorship</h3>
+<ul>
+{% for editor in site.data.editorship %}
+<li>{{ editor.name | markdownify | remove_first: '<p>' | remove: '</p>' | strip }}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+{% if site.data.membership %}
+<div class="section-card">
+<h3>Membership</h3>
+<ul>
+{% for member in site.data.membership %}
+<li>{{ member.name | markdownify | remove_first: '<p>' | remove: '</p>' | strip }}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+{% if site.data.services %}
+<div class="section-card">
+<h3>Professional Services</h3>
+<ul>
+{% for service in site.data.services %}
+<li>{{ service.name | markdownify | remove_first: '<p>' | remove: '</p>' | strip }}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+{% if site.data.mytalks %}
+<div class="section-card">
+<h3>Invited Talks</h3>
+<ul>
+{% for talk in site.data.mytalks %}
+<li>{{ talk.name | markdownify | remove_first: '<p>' | remove: '</p>' | strip }}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+
+{% if site.data.grants %}
+<div class="section-card">
+<h3>Grants</h3>
+<ul>
+{% for grant in site.data.grants %}
+<li>{{ grant.name | markdownify | remove_first: '<p>' | remove: '</p>' | strip }}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+
 
 {% if site.data.funders %}
 <div class="section-card">
