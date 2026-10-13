@@ -2,6 +2,10 @@
 layout: default
 ---
 
-<div class="fade-in-section">
+{% if page.disable_fade %}
   {{ content }}
-</div>
+{% else %}
+  <div class="fade-in-section">
+    {{ content }}
+  </div>
+{% endif %}

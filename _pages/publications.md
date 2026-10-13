@@ -2,6 +2,7 @@
 title: "Publications"
 layout: page
 permalink: /publications/
+disable_fade: true
 ---
 
 # Publications
